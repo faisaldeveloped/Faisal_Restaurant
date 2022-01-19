@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Css file link -->
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/media.css"/>
+    <title>Boostrap</title>
+</head>
+<body>
+
+    <!-- header design -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navigation-wrap">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="./images/myLogo.png" width="100" height="100%" alt=""></a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-stream navbar-toggler-icon"></i>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav col-auto me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">الرئيسية</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">عنا</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#explore-food">أشهر الاكلات</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#reviews">اراء العملاء</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                  </li>
+
+                  <li>
+                      <button class="main-btn">540144332 +966 </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- section-1 top-banner -->
+
+    <section id="home" dir="ltr">
+        <div class="container-fluid px-0 top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-5 col-md-6">
+                        <h1>مطاعم الرياض</h1>
+                        <p>
+                            نهتم بالمطاعم والمقاهي ومحلات المأكولات بأنواعها
+                        </p>
+
+                        <div class="mt-4">
+                            <button class="white-btn">أطلب الآن <i class="fas fa-shopping-basket ps-3"></i></button>
+                            <button class="main-btn ms-lg-4 mt-lg-0 mt-4">تسجيل الدخول <i class="fas fa-angle-right ps-3"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- section-2 counter -->
+
+    <section id="counter">
+        <section class="counter-section">
+            <div class="counter">
+                <div class="row text-center">
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count1"></span>+
+                        </h2>
+                        <p>عدد الزوار</p>
+                    </div>
+
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count2"></span>+
+                        </h2>
+                        <p>تم التوصيل</p>
+                    </div>
+
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count3"></span>+
+                        </h2>
+                        <p>الزبائن</p>
+                    </div>
+
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count4"></span>+
+                        </h2>
+                        <p>عملاء سعداء</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- section-3 about -->
+
+    <section id="about">
+        <div class="about-section wrapper">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+                        <div class="card border-0">
+                            <img src="./images/img/img-1.png" class="img-fluid" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-md-12 text-sec">
+                        <h2>نحن فخورون بأنفسنا لأننا نطبخ طعاما حقيقيا من أفضل المكونات</h2>
+                        <p>
+                            هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص.
+                        </p>
+                        <button class="main-btn mt-4">أقرأ أكثر</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container food-type">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+                        <h2>نحن نطبخ كل شيئ بإيدينا بأفضل المكونات الممكنة</h2>
+                        <p>
+                            هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+                        </p>
+
+                        <ul class="list-unstyled py-3">
+                            <li>هنالك العديد من الأنواع</li>
+                            <li>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً</li>
+                            <li>فلقد اتضح أن كلمات نص لوريم إيبسوم تأتي من الأقسام 1.10.32</li>
+                        </ul>
+                        <button class="main-btn mt-4">أقرأ أكثر</button>
+                    </div>
+                    <div class="col-lg-7 col-md-12">
+                        <div class="card border-0">
+                            <img src="./images/img/img-2.png" class="img-fluid" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-3 story -->
+
+    <section id="story">
+        <div class="story-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content">
+                            <h2>عندما امتلأت معدة الرجل فرق بين الغني و الفقير!</h2>
+                            <p>
+                                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
+                            </p>
+
+                            <button class="main-btn mt-3">
+                                أقرأ أكثر
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-4 explore food -->
+
+    <section id="explore-food">
+        <div class="explore-food wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content text-center">
+                            <h2>أشهر أكلاتنا</h2>
+                            <p>
+                                هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-5">
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="./images/img/img-3.jpg" class="img-fluid" alt=""/>
+                            <div class="pt-3">
+                                <h4>ساندوش الليبو</h4>
+                                <p>
+                                    الوقت: 15- 20 دقيقة | الخدمة: 1
+                                </p>
+                                <span> 10.50$ <del>11.70$</del> </span>
+                                <button class="mt-4 main-btn">أطلب الآن</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="./images/img/img-4.jpg" class="img-fluid" alt=""/>
+                            <div class="pt-3">
+                                <h4>برجر النانو</h4>
+                                <p>
+                                    الوقت: 30- 45 دقيقة | الخدمة: 1
+                                </p>
+                                <span> 9.50$ <del>12.70$</del> </span>
+                                <button class="mt-4 main-btn">أطلب الآن</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="./images/img/img-5.jpg" class="img-fluid" alt=""/>
+                            <div class="pt-3">
+                                <h4>الوجبة الإطالية</h4>
+                                <p>
+                                    الوقت: 15- 20 دقيقة | الخدمة: 1
+                                </p>
+                                <span> 13.50$ <del>20.70$</del> </span>
+                                <button class="mt-4 main-btn">أطلب الآن</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-5 testimonial -->
+
+    <section id="reviews">
+        <div class="wrapper reviews-section">
+            <div class="container text-center">
+                <div class="text-center pb-4">
+                    <h2>رأي الزبون</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 col-lg-10 offset-lg-1">
+                        <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="carousel-caption">
+                                <img src="./images/review/review-1.jpg" alt="..." />
+                                  <p>ينما تعمل جميع مولّدات نصوص لوريم إيبسوم على الإنترنت على إعادة تكرار مقاطع من نص لوريم إيبسوم نفسه عدة مرات بما تتطلبه الحاجة، يقوم مولّدنا هذا باستخدام كلمات من قاموس يحوي على أكثر من 200 كلمة لا تينية</p>
+                                  <h5> فيصل العنزي - رجل المهام الصعبة </h5>
+                                    </div>
+                              </div>
+
+                              <div class="carousel-item">
+                                <div class="carousel-caption">
+                                <img src="./images/review/review-2.jpg" alt="..." />
+                                  <p>ينما تعمل جميع مولّدات نصوص لوريم إيبسوم على الإنترنت على إعادة تكرار مقاطع من نص لوريم إيبسوم نفسه عدة مرات بما تتطلبه الحاجة، يقوم مولّدنا هذا باستخدام كلمات من قاموس يحوي على أكثر من 200 كلمة لا تينية</p>
+                                  <h5> النورين - أحب اهين المطعام </h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="carousel-caption">
+                                <img src="./images/review/review-1.jpg" alt="..." />
+                                  <p>ينما تعمل جميع مولّدات نصوص لوريم إيبسوم على الإنترنت على إعادة تكرار مقاطع من نص لوريم إيبسوم نفسه عدة مرات بما تتطلبه الحاجة، يقوم مولّدنا هذا باستخدام كلمات من قاموس يحوي على أكثر من 200 كلمة لا تينية</p>
+                                  <h5>سعود | تاجر</h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-6 faq -->
+
+    <section id="faq">
+        <div class="faq wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center pb-4">
+                            <h2> أسئلة و أجوبة </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-sm-6 mb-4">
+                        <h4>
+                            <i class="fas fa-question"></i>
+                            هل خبز المطعم فعلا خالى من المواد المصنعة؟
+                        </h4>
+                        <p>
+                            هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-6 mb-4">
+                        <h4>
+                            <i class="fas fa-question"></i>
+                            هل تخبزون الخبز الذي يحتوي على دهون أو منتجات حيوانية؟
+                        </h4>
+                        <p>
+                            هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص.
+                        </p>
+                    </div>
+
+                    
+                    <div class="col-sm-6 mb-4">
+                        <h4>
+                            <i class="fas fa-question"></i>
+                            هل يمكنني أن أطلب من مطعمكم عبر الأنترنت؟
+                        </h4>
+                        <p>
+                            هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-6 mb-4">
+                        <h4>
+                            <i class="fas fa-question"></i>
+                           متى تفتحون بحي النظيم؟
+                        </h4>
+                        <p>
+                            هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-7 book-food -->
+
+    <section id="book-food">
+        <div class="book-food">
+            <div class="container book-food-text">
+                <div class="row text-center">
+                    <div class="col-lg-9 col-md-12">
+                        <h2>مخبوز طازج يوميا من قبل الخبازين المحترفين.</h2>
+                    </div>
+                    <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+                        <button class="white-btn">أعرف أكثر</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-8 newsletter -->
+
+    <section id="newsletter">
+        <div class="newletter wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-content text-center pb-4">
+                            <h2>
+                                أستغل الفرصة و أشترك في النشرة الإخبارية لدينا و أحصل على خصم 25%
+                            </h2>
+                            <p>
+                                عرض لفترة محدودة لهذا الشهر. بطاقة الإئتمان غير مطالب بها.
+                            </p>
+                        </div>
+
+                        <form action="" class="newsletter">
+                            <div class="row">
+                                <div class="col-md-8 col-12">
+                                    <input type="email" name="email" placeholder="ضع بريدك الإلكتروني" class="form-control">
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <button class="main-btn" type="submit">أشتراك</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-9 footer -->
+
+    <footer id="footer">
+        <div class="footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="#" class="footer-link">تسجيل الدخول</a>
+                        <a href="#" class="footer-link">المنتدى</a>
+                        <a href="#" class="footer-link">الشركات التابعة</a>
+                        <a href="#faq" class="footer-link">FAQ</a>
+
+                        <div class="footer-social pt-4 text-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <div class="footer-copy">
+                            <div class="copy-left text-center pt-5">
+                                <p class="text-light"> &copy; 2022. Foodies. جميع الحقوق محفوظة. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+
+    <!-- JS Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <!-- JS script file -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
